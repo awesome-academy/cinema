@@ -18,6 +18,9 @@ class User extends Authenticatable
     protected $fillable = [
         'email',
         'password',
+        'name',
+        'phone',
+        'date_of_birth',
     ];
 
     /**
@@ -29,6 +32,15 @@ class User extends Authenticatable
         'password',
         'remember_token',
     ];
+
+    /**
+     * @param $value
+     */
+
+    public function setPasswordAttribute($password)
+    {
+        $this->attributes['password'] = bcrypt($password);
+    }
 
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
