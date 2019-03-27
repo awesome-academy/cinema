@@ -14,7 +14,10 @@ class Room extends Model
     /**
      * @var array
      */
-    protected $fillable = [];
+    protected $fillable = [
+        'name',
+        'store_id',
+    ];
 
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
