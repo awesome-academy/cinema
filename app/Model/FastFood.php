@@ -14,5 +14,9 @@ class FastFood extends Model
     /**
      * @var array
      */
-    protected $fillable = [];
+    protected $fillable = [
+        'name',
+        'description',
+        'price',
+    ];
 }

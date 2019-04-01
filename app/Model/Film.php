@@ -14,7 +14,19 @@ class Film extends Model
     /**
      * @var array
      */
-    protected $fillable = [];
+    protected $fillable = [
+        'title',
+        'img',
+        'description',
+        'language',
+        'subtitle',
+        'status',
+        'time',
+        'fist_show',
+        'director',
+        'actor',
+        'category_id',
+    ];
 
 
     /**
