@@ -14,5 +14,9 @@ class Seat extends Model
     /**
      * @var array
      */
-    protected $fillable = [];
+    protected $fillable = [
+        'row',
+        'col',
+        'room_id',
+    ];
 }
