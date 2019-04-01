@@ -18,7 +18,14 @@ class TimeShow extends Model
     /**
      * @var array
      */
-    protected $fillable = [];
+    protected $fillable = [
+        'film_id',
+        'room_id',
+        'status',
+        'time_show',
+        'price',
+        'sale_price',
+    ];
 
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
