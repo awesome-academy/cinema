@@ -14,7 +14,10 @@ class RoleUser extends Model
     /**
      * @var array
      */
-    protected $fillable = [];
+    protected $fillable = [
+        'role_id',
+        'user_id',
+    ];
 
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
