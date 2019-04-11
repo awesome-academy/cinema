@@ -283,8 +283,6 @@
                     <ul class="mega-select__sort">
                         <li class="filter-wrap"><a href="#" class="mega-select__filter filter--active" data-filter='cinema'>{{ __('Cinema') }}</a></li>
                         <li class="filter-wrap"><a href="#" class="mega-select__filter" data-filter='film-category'>{{ __('Category') }}</a></li>
-                        <li class="filter-wrap"><a href="#" class="mega-select__filter" data-filter='actors'>{{ __('Actors') }}</a></li>
-                        <li class="filter-wrap"><a href="#" class="mega-select__filter" data-filter='director'>{{ __('Director') }}</a></li>
                     </ul>
 
                     <input name="search-input" type='text' class="select__field">
